@@ -153,6 +153,10 @@ section h1, section h2 {
         width: 100%;
     }
 
+    header li {
+    margin: 0 10px 0 10px;
+}
+
     aside.sidebar #profile-picture{
         max-width: 300px;
     }
