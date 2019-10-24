@@ -78,6 +78,7 @@ aside.sidebar p {
 aside.sidebar img#profile-picture {
     margin-top: 30px;
     border-radius: 50%;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -143,4 +144,18 @@ li.paper a {
 section h1, section h2 {
     color: #00aa55;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    header #my-name, header nav, header nav li, aside.sidebar, article.home-content{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    aside.sidebar #profile-picture{
+        max-width: 300px;
+    }
+
+
 }
