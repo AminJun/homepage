@@ -141,6 +141,16 @@ li.paper a {
     font-size: 16px;
 }
 
+li.paper a.item {
+    border-radius: 7px 7px;
+	background: #00aa55;
+	padding: 7px;
+	margin: 0 4px 0 4px;
+	font-weight: none;
+	font-size: 10px; 
+	color: #FFFFFF;
+}
+
 section h1, section h2 {
     color: #00aa55;
     font-size: 20px;
