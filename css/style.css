@@ -11,12 +11,22 @@ body {
 }
 
 header {
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 50%;*/
     padding-top: 20px;
     padding-bottom: 20px;
     background: #f6f6f6;
     overflow: hidden;
     border-bottom: 1px solid lightgray;
+    margin-top: 0px;
 }
+
+article .container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 
 ul {
     margin: 0;
@@ -87,13 +97,28 @@ article.home-content {
     width: 70%;
 }
 
+aside.sidebar {
+    position: fixed;
+    /*height: 100%;*/
+    /*top: -50%;*/
+}
+
+article{
+    background: white;
+    padding-bottom: 50px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
 section {
     display: block;
     overflow: auto;
 }
 
 footer {
-    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    /*margin-top: 20px;*/
+    padding-bottom: 20px;
     text-align: center;
     padding: 5px;
     color: lightgray;
@@ -124,7 +149,7 @@ aside.sidebar li img {
     margin-top: 15px;
 }
 
-ul#publications {
+ul.publications {
     list-style: none;
 }
 
@@ -162,6 +187,28 @@ section h1, section h2 {
         text-align: center;
         width: 100%;
     }
+
+    aside.sidebar {
+        position: static;
+        padding-bottom: 20%;
+        border-bottom: 1px solid lightgray;
+    }
+
+    article {
+        /*margin: 20px;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+        border: 0px;
+    }
+
+    footer{
+        border-top: 1px solid lightgray;
+        margin-top: 0px;
+        padding-bottom: 20px;
+
+    }
+
 
     header li {
     margin: 0 10px 0 10px;

@@ -9,7 +9,7 @@
     <title>Amin Ghiasi | Home</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-<body>
+<body style="background: #f6f6f6;">
     <header>
         <div class="container">
             <div id="my-name">
@@ -17,9 +17,9 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current-page"><a href="index.html">Home</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="current-page"><a href="#home_id">Home</a></li>
+                    <li><a href="#publication_id">Publications</a></li>
+                    <li><a href="#contact_me_id">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,9 +39,8 @@
                 </ul>
             </div>
         </aside>
-
         <article class="home-content">
-            <div class="container">
+            <div class="container" id="home_id">
                 <div>
                     <h1>Bio</h1>
                     <p>
@@ -51,6 +50,7 @@
                         So far in my research, I have tried to address the problem of finding cheap practical methods to make networks robust against such attacks.
                     </p>
                 </div>
+
                 <div id="interests">
                     <h2> Interests </h2>
                     <ul>
@@ -67,12 +67,123 @@
                     </ul>
                 </div>
             </div>
+
+
+            <div class="container" id="checkout_id">
+                <h1> News </h1>
+                <ul class="publications"> 
+                    <li class="paper"> 
+                        <a href="http://www.cs.umd.edu/~amin/apps/visxai/sonification/"> Feature Sonification: An Investigation on the Features Learned for Automated Speech Recognition (ASR) </a>
+                        <p> Appeared in: VISxAI 2022 <a class="item" href="http://www.cs.umd.edu/~amin/apps/visxai/sonification/">Blog</a> </p>
+                    </li>
+                </ul>
+            </div>
+
+
+                
+            <div class="container" id="publication_id">
+                <h1>Publications</h1>
+                <ul class="publications">
+                    <li class="paper"> 
+                        <a href="http://www.cs.umd.edu/~amin/apps/visxai/sonification/"> Feature Sonification: An Investigation on the Features Learned for Automated Speech Recognition (ASR) </a>
+                        <p> Appeared in: VISxAI 2022 <a class="item" href="http://www.cs.umd.edu/~amin/apps/visxai/sonification/">Blog</a> </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://nips.cc/Conferences/2019/Schedule?showEvent=13512">
+                            Adversarial Training for Free!
+                        </a>
+                        <p>Appeared in: NeurIPS 2019
+                            <a class="item" href="http://papers.nips.cc/paper/8597-adversarial-training-for-free.pdf">PDF</a>
+                            <a class="item" href="https://www.cs.umd.edu/~ashafahi/free_training/Free_train_slide.pdf">Slides</a>
+                            <a class="item" href="https://www.youtube.com/watch?v=v8U9mM1Vwv0">Video</a>
+                            <a class="item" href="https://www.cs.umd.edu/~ashafahi/free_training/Free_train_poster.pdf">Poster</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://openreview.net/forum?id=ryebG04YvB">
+                            Adversarially Robust Transfer Learning
+                        </a>
+                        <p>Appeared in: ICLR 2020
+                            <a class="item" href="https://openreview.net/pdf?id=ryebG04YvB">PDF</a>
+                            <a class="item" href="https://www.youtube.com/watch?v=3ljuc-6tCRM&t=1s">Video</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://openreview.net/forum?id=HJxdTxHYvB">
+                            Breaking Certifiable Defenses: Semantic Adversarial Examples with Spoofed Robustness Certificates
+                        </a>
+                        <p> Appeared in: ICLR 2020
+                            <a class="item" href="https://openreview.net/pdf?id=HJxdTxHYvB">PDF</a>
+                            <a class="item" href="https://www.youtube.com/watch?v=hvemlq8pjno&t=140s">Video</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://bmvc2019.org/wp-content/uploads/papers/0559-paper.pdf">
+                            Batch-wise Logit-Similarity: Generalizing Logit-Squeezing and Label-Smoothing
+                        </a>
+                        <p>Appeared in: BMVC 2019
+                            <a class="item" href="https://bmvc2019.org/wp-content/uploads/papers/0559-paper.pdf">PDF</a>
+                            <a class="item" href="./files/BMVC19Poster.pdf">Poster</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9414862">
+                            Strong Data Augmentation Sanitizes Poisoning and Backdoor Attacks Without an Accuracy Tradeoff
+                        </a>
+                        <p>Appeared in: ICASSP 2021
+                            <a class="item" href="https://ieeexplore.ieee.org/abstract/document/9414862">PDF</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://arxiv.org/abs/2103.02079">DP-instahide: Provably defusing poisoning and backdoor attacks with differentially private data augmentations</a>
+                        <p>Arxiv Paper: 
+                            <a class="item" href="https://arxiv.org/abs/2103.02079">PDF</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://openreview.net/forum?id=EVhRrUyW8Gw">Towards Accurate Quantization and Pruning via Data-free Knowledge Transfer</a>
+                        <p> Appreared in: SNN 2021 <a class="item" href="https://openreview.net/forum?id=EVhRrUyW8Gw">PDF</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://arxiv.org/abs/2102.11011">The Uncanny Similarity of Recurrence and Depth</a>
+                        <p> Arxiv Paper: <a class="item" href="https://arxiv.org/abs/2102.11011">PDF</a>
+                        </p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-85947-3_16">Approximate Competitive Equilibrium with Generic Budget</a>
+                        <p> Appeared in: SAGT2021 <a class="item" href="https://link.springer.com/chapter/10.1007/978-3-030-85947-3_16">PDF</a></p>
+                    </li>
+                    <li class="paper">
+                        <a href="https://www.ijcai19.org/accepted-papers.html">
+                            On the Efficiency and Equilibria of Rich Ads
+                        </a>
+                        <p>Appeared in: IJCAI-2019
+                            <a class="item" href="https://www.ijcai.org/proceedings/2019/0043.pdf">PDF</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>    
+
+
+            <div class="container" id="contact_me_id">
+                <h1>Contact Me!</h1>
+                <p>
+                    Feel free to contact me.
+                    I would be more than happy to talk to you.
+                </p>
+                <ul>
+                    <!-- <li> Phone no: +1 202 594 56 72</li> -->
+                    <li> Email: mohammad.amin.ghiasi@gmail.com </li>
+                    <li> Alt email: amin@cs.umd.edu</li>
+                </ul>
+            </div>
         </article>
     </section>
 
     <footer>
-        <p>Last updated: Oct 24th 2019 </p>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+        <p>Last updated: Oct 12th 2021 </p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
     </footer>
 </body>
 </html>
